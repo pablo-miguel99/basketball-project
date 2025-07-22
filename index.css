@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+    color: #9AABD8;
+}
+
+@font-face{
+    src: url("/SFDigitalReadout-Heavy.ttf");
+    font-family: digital;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+
+#score-home{
+    background-color: black;
+    border: 20px solid black;
+    text-align: center;
+    color: #F94F6D;
+    padding: 10px;
+    font-family: digital;
+    font-size: 30px;
+    
+}
+
+#score-away{
+    background-color: black;
+    border: 20px solid black;
+    text-align: center;
+    color: #F94F6D;
+    padding: 10px;
+    font-family: digital;
+    font-size: 30px;
+    }
+    
+.btn1, .btn2, .btn3 {
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    background: transparent;
+    color: #9AABD8;
+    margin-right: 5px;
+    font-family: digital;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#New-game{
+    background: transparent;
+    color: #9AABD8;
+}
